@@ -3,7 +3,7 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 const app = express()
 
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 const sources = [
 	{
 		name: 'space',

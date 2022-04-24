@@ -77,7 +77,7 @@ sources.forEach((source) => {
 })
 
 app.get('/', (req, res) => {
-	res.json({ message: 'Welcome to space api' })
+	res.json({ message: 'Welcome to SpaceFo api' })
 })
 
 app.get('/articles', (req, res) => {

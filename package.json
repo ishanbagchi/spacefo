@@ -1,0 +1,26 @@
+{
+  "name": "space-api",
+  "version": "1.0.0",
+  "description": "An api to get article data from space.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "space",
+    "news"
+  ],
+  "author": "Ishan Bagchi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

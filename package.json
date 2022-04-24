@@ -13,7 +13,14 @@
     "space",
     "news"
   ],
-  "author": "Ishan Bagchi",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ishanbagchi/spacefo.git"
+  },
+  "author": {
+    "name" : "Ishan Bagchi",
+    "email" : "ishanbagchi4@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
